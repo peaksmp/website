@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 1024 1024">
+<metadata>
+</metadata>
+<defs>
+<linearGradient y1="-133.596" id="LinearGradient" x1="124.915" y2="660.003" x2="121.242" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.835971 -5.82903e-08 6.73079e-08 -0.965297 613.626 763.406)">
+<stop stop-color="#3eb0e4" offset="0"/>
+<stop stop-color="#ffffff" offset="1"/>
+</linearGradient>
+</defs>
+<g id="Glyph" vectornator:layerName="Glyph">
+<path d="M770.95+894.668L896+896L704+512L512+128L320+512L128+896L258.198+897.738L513.807+325.881" opacity="1" fill="url(#LinearGradient)"/>
+</g>
+</svg>
