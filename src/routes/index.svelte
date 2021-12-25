@@ -1,9 +1,10 @@
-<script>
-import Hero from "./hero/hero.svelte";
 
+<script lang="ts">
+	import { HeroSection } from "$layout";
 </script>
+
 <svelte:head>
-    <title>Peak</title>
+	<title>Peak</title>
 </svelte:head>
 
-<Hero />
+<HeroSection />

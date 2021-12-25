@@ -12,19 +12,19 @@
 </div>
 
 <style lang="scss">
-    .container {
-        margin-top: 20px;
-    }
-    .row {
-        margin-bottom: 20px;
-    }
-    .col-md-12 {
-        text-align: center;
-    }
-    h1 {
-        margin-bottom: 20px;
-    }
-    p {
-        margin-bottom: 20px;
-    }
+	.container {
+		margin-top: 20px;
+	}
+	.row {
+		margin-bottom: 20px;
+	}
+	.col-md-12 {
+		text-align: center;
+	}
+	h1 {
+		margin-bottom: 20px;
+	}
+	p {
+		margin-bottom: 20px;
+	}
 </style>

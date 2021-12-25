@@ -75,10 +75,10 @@ jobs:
           key: ${{ runner.os }}-single-buildx-standard
           restore-keys: |
             ${{ runner.os }}-single-buildx
-      
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1.2.0
-        
+
       ###########################################
       # Build and Push containers to registries #
       ###########################################

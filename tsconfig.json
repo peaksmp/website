@@ -23,8 +23,17 @@
 		"allowJs": true,
 		"checkJs": true,
 		"paths": {
-			"$lib": ["src/lib"],
-			"$lib/*": ["src/lib/*"]
+			"$lib": [
+				"src/lib/*",
+				"src/lib/index"
+			],
+			"$layout": [
+				"src/layout/*",
+				"src/layout/index"
+			],
+			"$static/*": [
+				"static/*"
+			]
 		}
 	},
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]

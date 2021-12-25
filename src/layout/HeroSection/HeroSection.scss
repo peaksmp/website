@@ -1,20 +1,18 @@
-@media(prefers-color-scheme: dark) {
-    .hero {
+@media (prefers-color-scheme: dark) {
+    .hero-section {
         color: white;
-        background-image: linear-gradient(#00000000 60%, #3eb0e4),
-            url(screenshots/hero-dark.webp);
+        background-image: linear-gradient(#00000000 60%, #3eb0e4), url(/static/screenshots/hero-dark.webp);
     }
 }
 
-@media(prefers-color-scheme: light) {
-    .hero {
+@media (prefers-color-scheme: light) {
+    .hero-section {
         color: white;
-        background-image: linear-gradient(#00000000 60%, #3eb0e4),
-            url(screenshots/hero-light.webp);
+        background-image: linear-gradient(#00000000 60%, #3eb0e4), url(/static/screenshots/hero-light.webp);
     }
 }
 
-.hero {
+.hero-section {
     height: 120vh;
     background-position: center;
 
