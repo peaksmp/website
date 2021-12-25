@@ -9,6 +9,8 @@ COPY . ./
 RUN npm run build
 
 FROM node:alpine AS run
+RUN groupadd -r node && useradd --no-log-init -r -g node node
+USER node
 WORKDIR /app
 COPY --from=build /app/build /app/build
 COPY --from=build /app/static /app/static

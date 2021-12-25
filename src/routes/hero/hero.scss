@@ -1,0 +1,46 @@
+@media(prefers-color-scheme: dark) {
+    .hero {
+        color: white;
+        background-image: linear-gradient(#00000000 60%, #3eb0e4),
+            url(screenshots/hero-dark.webp);
+    }
+}
+
+@media(prefers-color-scheme: light) {
+    .hero {
+        color: white;
+        background-image: linear-gradient(#00000000 60%, #3eb0e4),
+            url(screenshots/hero-light.webp);
+    }
+}
+
+.hero {
+    height: 120vh;
+    background-position: center;
+
+    .hero-content {
+        .logo {
+            width: 100%;
+            max-width: 475px;
+            margin: inherit;
+        }
+
+        h1 {
+            font-size: 10rem;
+            font-weight: bold;
+            margin: inherit;
+        }
+
+        p {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: system-ui;
+        text-align: center;
+    }
+}
