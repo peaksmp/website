@@ -15,8 +15,7 @@ const config = {
 					$layout: path.resolve("./src/layout")
 				}
 			}
-		},
-		target: '#svelte'
+		}
 	}
 };
 
