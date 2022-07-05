@@ -1,0 +1,41 @@
+@media (prefers-color-scheme: dark) {
+	nav {
+		--font-color: hsl(195, 60%, 70%);
+		--font-hover: hsl(195, 60%, 30%);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	nav {
+		--font-color: hsl(195, 60%, 30%);
+		--font-hover: hsl(195, 60%, 0%);
+	}
+}
+
+header nav {
+	justify-content: space-between;
+	display: flex;
+}
+
+header nav ul {
+    margin: 0 auto;
+    padding: 10px 100px;
+}
+
+header nav li {
+    margin: 0 auto;
+    padding: 0 100px;
+    display: inline-block;
+}
+
+header nav a {
+    font-family: system-ui;
+    font-size: 2rem;
+    color: var(--font-color);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover {
+    color: var(--font-hover);
+}
