@@ -2,6 +2,10 @@
 	nav {
 		--font-color: hsl(195, 60%, 70%);
 		--font-hover: hsl(195, 60%, 30%);
+        --button-background: hsl(195, 60%, 10%);
+        --button-background-hover: hsl(195, 60%, 30%);
+        --button-shadow: hsla(0, 0, 0, 0);
+        --button-shadow-hover: hsl(195, 60%, 75%);
 	}
 }
 
@@ -9,6 +13,10 @@
 	nav {
 		--font-color: hsl(195, 60%, 30%);
 		--font-hover: hsl(195, 60%, 0%);
+        --button-background: hsl(195, 60%, 95%);
+        --button-background-hover: hsl(195, 60%, 75%);
+        --button-shadow: hsl(195, 60%, 30%);
+        --button-shadow-hover: hsl(195, 60%, 30%);
 	}
 }
 
@@ -19,7 +27,7 @@ header nav {
 
 header nav ul {
     margin: 0 auto;
-    padding: 10px 100px;
+    padding: 25px 100px;
 }
 
 header nav li {
@@ -33,9 +41,14 @@ header nav a {
     font-size: 2rem;
     color: var(--font-color);
     text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px var(--button-shadow);
+    background-color: var(--button-background);
     transition: all 0.3s ease-in-out;
 }
 
 header nav a:hover {
-    color: var(--font-hover);
+    background-color: var(--button-background-hover);
+    box-shadow: 1px 1px 10px 1px var(--button-shadow-hover);
 }

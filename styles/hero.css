@@ -1,14 +1,12 @@
 @media (prefers-color-scheme: dark) {
     .hero-section {
-        color: white;
-        background-image: linear-gradient(#00000000 60%, #105170), url(../static/screenshots/hero-dark@0.5x.webp);
+        background-image: linear-gradient(hsla(0, 0%, 0%, 0) 60%, hsl(199, 75%, 25%)), url(../static/screenshots/hero-dark@0.5x.webp);
     }
 }
 
 @media (prefers-color-scheme: light) {
     .hero-section {
-        color: white;
-        background-image: linear-gradient(#00000000 60%, #a6daf2), url(../static/screenshots/hero-light@0.5x.webp);
+        background-image: linear-gradient(hsla(0, 0%, 0%, 0) 60%, hsl(199, 75%, 80%)), url(../static/screenshots/hero-light@0.5x.webp);
     }
 }
 
@@ -17,6 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .hero-content {
@@ -28,19 +27,30 @@
     text-align: center;
 }
 
+.hero-content h1 {
+    padding: 0px 0px 40px 0px;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: inherit;
+}
+
+.hero-content h2 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    color: transparent;
+    background-image: linear-gradient(to right, hsl(0, 0%, 100%), 70%, hsl(199, 75%, 57%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-background-fill-color: transparent;
+}
+
+.hero-content p {
+    font-size: 2rem;
+}
+
 .logo {
     width: 100%;
     max-width: 475px;
     margin: inherit;
-}
-
-.logo h1 {
-    font-size: 10rem;
-    font-weight: bold;
-    margin: inherit;
-}
-
-.logo p {
-    font-size: 2rem;
-    font-weight: bold;
 }
